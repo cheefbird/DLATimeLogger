@@ -97,6 +97,8 @@
 		063ACF46273B0534005C7F9C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0687142C273B0B5100619480 /* Models */,
+				0687142B273B0B4900619480 /* Views */,
 				063ACF47273B0534005C7F9C /* DLATimeLoggerApp.swift */,
 				063ACF48273B0534005C7F9C /* ContentView.swift */,
 				063ACF49273B0537005C7F9C /* Assets.xcassets */,
@@ -139,6 +141,20 @@
 				063ACF6D273B0537005C7F9C /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		0687142B273B0B4900619480 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0687142C273B0B5100619480 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
