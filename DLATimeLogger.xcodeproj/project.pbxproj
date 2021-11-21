@@ -17,6 +17,8 @@
 		063ACF72273B0537005C7F9C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 063ACF48273B0534005C7F9C /* ContentView.swift */; };
 		063ACF73273B0537005C7F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063ACF49273B0537005C7F9C /* Assets.xcassets */; };
 		063ACF74273B0537005C7F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 063ACF49273B0537005C7F9C /* Assets.xcassets */; };
+		0642CD462749F42600962C25 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642CD452749F42600962C25 /* CalendarCell.swift */; };
+		0642CD472749F42600962C25 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0642CD452749F42600962C25 /* CalendarCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		063ACF67273B0537005C7F9C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		063ACF6B273B0537005C7F9C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		063ACF6D273B0537005C7F9C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		0642CD452749F42600962C25 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		063ACF46273B0534005C7F9C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				0642CD442749F40B00962C25 /* Views */,
 				063ACF47273B0534005C7F9C /* DLATimeLoggerApp.swift */,
 				063ACF48273B0534005C7F9C /* ContentView.swift */,
 				063ACF49273B0537005C7F9C /* Assets.xcassets */,
@@ -139,6 +143,14 @@
 				063ACF6D273B0537005C7F9C /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		0642CD442749F40B00962C25 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0642CD452749F42600962C25 /* CalendarCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,6 +313,7 @@
 			files = (
 				063ACF71273B0537005C7F9C /* ContentView.swift in Sources */,
 				063ACF6F273B0537005C7F9C /* DLATimeLoggerApp.swift in Sources */,
+				0642CD462749F42600962C25 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +323,7 @@
 			files = (
 				063ACF72273B0537005C7F9C /* ContentView.swift in Sources */,
 				063ACF70273B0537005C7F9C /* DLATimeLoggerApp.swift in Sources */,
+				0642CD472749F42600962C25 /* CalendarCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
