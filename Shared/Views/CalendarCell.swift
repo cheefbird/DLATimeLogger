@@ -1,5 +1,5 @@
 //
-//  CalendarStrip.swift
+//  CalendarCell.swift
 //  DLATimeLogger
 //
 //  Created by Francis Breidenbach on 11/20/21.
@@ -28,7 +28,7 @@ struct CalendarCell: View {
   }
 }
 
-struct CalendarStrip_Previews: PreviewProvider {
+struct CalendarCell_Previews: PreviewProvider {
   static var previews: some View {
     CalendarCell(
       day: "M", hours: 2.67
